@@ -50,6 +50,7 @@ const server = app.listen(port, () => {
 const io = new Server(server)
 
 io.on('connection', async socket => {
+    console.log('Cliente conectado')
     const products = await pm.getProducts()
     socket.emit('productsUpdate', {products})
     socket.on('addProduct', async data => {
