@@ -1,0 +1,35 @@
+[
+    {
+        "id": 0,
+        "title": "Prueba 0",
+        "description": "Producto de prueba 0",
+        "price": 1000,
+        "thumbnails": [],
+        "code": "a514",
+        "category": "testCat1",
+        "status": true,
+        "stock": 50
+    },
+    {
+        "id": 1,
+        "title": "Prueba 1",
+        "description": "Producto de prueba 1",
+        "price": 2000,
+        "thumbnails": [],
+        "code": "b531",
+        "category": "testCat1",
+        "status": true,
+        "stock": 52
+    },
+    {
+        "id": 2,
+        "title": "Prueba 2",
+        "description": "Producto de prueba 2",
+        "price": 3000,
+        "thumbnails": [],
+        "code": "c548",
+        "category": "testCat2",
+        "status": true,
+        "stock": 24
+    }
+]
